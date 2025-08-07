@@ -1,3 +1,5 @@
+import Button from "./ui/Button";
+
 export default function HomeSection() {
   return (
     <section
@@ -29,12 +31,11 @@ export default function HomeSection() {
             <br />
             para o seu negócio!
           </p>
-          <a
-            href="#contato"
-            className="inline-flex items-left gap-2 rounded-full bg-[#9b26e3]/90 px-8 py-3 text-sm font-semibold text-white shadow-[0_0_20px_rgba(155,38,227,0.6)] transition hover:brightness-110"
-          >
-            TRANSFORME AGORA
-          </a>
+          <div className="items-start ml-[-40px]">
+            {" "}
+            {/* Move o botão mais para a esquerda */}
+            <Button word="TRANSFORME AGORA" href="#contato" />
+          </div>
         </div>
       </div>
     </section>

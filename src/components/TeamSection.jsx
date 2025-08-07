@@ -39,7 +39,7 @@ const teamMembers = [
 
 export default function TeamSection() {
   return (
-    <section className="bg-[#0e061d] text-white py-20">
+    <section className="bg-[#140517] text-white py-20">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h3 className="text-purple-400 font-semibold mb-2">A EQUIPE</h3>
         <h2 className="text-4xl font-bold mb-12">Nosso time Wolf</h2>

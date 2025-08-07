@@ -1,4 +1,5 @@
-import { ArrowUpRight } from "phosphor-react";
+import React from "react";
+import Button from "./ui/Button";
 
 export default function ContatoSection() {
   return (
@@ -9,7 +10,7 @@ export default function ContatoSection() {
         backgroundImage: `url("images/bg_wolf.png")`,
       }}
     >
-      <div className="max-w-6xl w-full z-10 transform translate-x-[240px]">
+      <div className="max-w-6xl w-full z-10  transform translate-x-[240px]">
         <span className="text-xs text-pink-500 tracking-wider bg-purple-950 px-3 py-1 rounded-full uppercase font-semibold mb-4 inline-block">
           Entre para a alcateia
         </span>
@@ -19,18 +20,12 @@ export default function ContatoSection() {
           seu negócio <span className="font-bold">hoje!</span>
         </h2>
 
-        <a
-          href="https://wa.me/5599999999999"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-8 inline-block focus:outline-none focus:ring-2 focus:ring-pink-500 transition"
-          aria-label="Fale conosco pelo WhatsApp"
-        >
-          <span className="bg-white text-pink-600 rounded-full p-[5px] flex items-center gap-2 hover:bg-pink-100 transition">
-            FALE CONOSCO
-            <ArrowUpRight weight="bold" size={16} />
-          </span>
-        </a>
+        <div className="pt-8">
+          <Button
+            word="FALE CONOSCO"
+            href="https://api.whatsapp.com/send?phone=5511999999999&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20da%20Wolf%20Maker."
+          />
+        </div>
       </div>
     </section>
   );

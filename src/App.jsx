@@ -8,6 +8,8 @@ import OurWork from "./components/OurWork.jsx";
 import ServicesCarousel from "./components/ServicesCarousel.jsx";
 import Soluctions from "./components/Soluctions.jsx";
 import TeamSection from "./components/TeamSection.jsx";
+import ContactSection from "./components/ContactSection.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <OurWork />
       <TeamSection />
       <FAQ />
+      <ContactSection />
+      <Footer />
     </>
   );
 }

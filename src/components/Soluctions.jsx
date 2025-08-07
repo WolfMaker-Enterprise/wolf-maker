@@ -1,4 +1,5 @@
 import React from "react";
+import Text from "./ui/HighText";
 import { ArrowUpRight } from "phosphor-react";
 
 export default function Soluctions() {
@@ -6,9 +7,9 @@ export default function Soluctions() {
     <section className="relative bg-[#140517] text-white py-24 px-6 overflow-hidden flex items-center justify-center">
       <div className="max-w-7xl w-full space-y-16 relative z-10">
         <div className="text-center">
-          <span className="text-xs text-pink-500 tracking-wider bg-purple-950 px-3 py-1 rounded-full uppercase font-semibold mb-3 inline-block">
-            Contatos
-          </span>
+          <div className="mb-4">
+            <Text text="Contatos" />
+          </div>
           <h2 className="text-5xl font-extrabold leading-tight">
             Nossas <span className="text-white">soluções & contatos</span>
           </h2>
@@ -38,9 +39,9 @@ export default function Soluctions() {
 
           <div className="space-y-6">
             <div>
-              <span className="text-xs text-pink-500 tracking-wider bg-purple-950 px-3 py-1 rounded-full uppercase font-semibold">
-                Expertise
-              </span>
+              <div className="mb-4">
+                <Text text="Expertise" />
+              </div>
               <h3 className="text-3xl font-light mt-2 mb-2">
                 Excelência em tecnologia!
               </h3>

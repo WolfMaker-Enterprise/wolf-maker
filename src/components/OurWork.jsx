@@ -1,4 +1,6 @@
 import React from "react";
+import Text from "./ui/HighText";
+
 export default function OurWork() {
   const stats = [
     { value: "+97", label: "projetos" },
@@ -10,9 +12,9 @@ export default function OurWork() {
   return (
     <section className="bg-[#140517] text-white py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
-        <span className="text-[13px] text-pink-500 tracking-wider bg-purple-950 px-3 py-1 rounded-full uppercase font-semibold">
-          Nosso Trabalhos
-        </span>
+        <div className="mb-4">
+          <Text text="Nossos Trabalhos" />
+        </div>
 
         <h2 className="text-[58px] font-bold pt-[13px]">
           Resultados da{" "}

@@ -13,7 +13,7 @@ function NavBarListItem({ text, href }) {
 
 export default function NavBar() {
   return (
-    <header className="w-full h-20 px-4 md:px-10 fixed top-0 z-50 bg-blur text-white">
+    <header className="w-full h-20 px-4 md:px-10 absolute top-0 z-50 bg-blur text-white">
       <div className="max-w-7xl mx-auto h-full flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img

@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./ui/Button";
+import Text from "./ui/HighText";
 
 export default function ContatoSection() {
   return (
@@ -11,9 +12,9 @@ export default function ContatoSection() {
       }}
     >
       <div className="max-w-6xl w-full z-10  transform translate-x-[240px]">
-        <span className="text-xs text-pink-500 tracking-wider bg-purple-950 px-3 py-1 rounded-full uppercase font-semibold mb-4 inline-block">
-          Entre para a alcateia
-        </span>
+        <div className="mb-4">
+          <Text text="Entre para a alcateia" />
+        </div>
 
         <h2 className="text-white font-[Inter] text-[56px] font-medium leading-[124%] tracking-[-1.12px] max-w-3xl">
           Comece a transformar <br />

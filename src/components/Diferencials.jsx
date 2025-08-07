@@ -1,4 +1,5 @@
 import React from "react";
+import Text from "./ui/HighText";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 
 export default function Diferencials() {
@@ -30,9 +31,9 @@ export default function Diferencials() {
       />
 
       <div className="relative z-10 max-w-6xl mx-auto text-center space-y-6">
-        <span className="text-xs text-pink-500 bg-purple-950 font-semibold px-3 py-1 rounded-full tracking-widest uppercase">
-          diferenciais
-        </span>
+        <div className="mb-4">
+          <Text text="diferenciais" />
+        </div>
         <h2 className="text-3xl sm:text-4xl font-light">
           Por que escolher a <span className="font-bold">Wolf Maker</span>
         </h2>

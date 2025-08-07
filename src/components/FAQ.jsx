@@ -1,4 +1,5 @@
 import React from "react";
+import Text from "./ui/HighText";
 import { useState } from "react";
 import { ArrowUpRight } from "phosphor-react";
 
@@ -28,11 +29,8 @@ export default function FAQ() {
   return (
     <section className="bg-[#140517] text-white md:h-[618px] py-20 px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
-        {/* Lado Esquerdo */}
         <div>
-          <span className="text-xs text-pink-500 tracking-wider bg-purple-950 px-3 py-1 rounded-full uppercase font-semibold">
-            FAQ
-          </span>
+          <Text text="FAQ" />
           <h2 className="text-4xl font-bold leading-snug mt-4">
             Desbloqueie sua empresa <br />
             para a <span className="text-white font-extrabold">tecnologia</span>

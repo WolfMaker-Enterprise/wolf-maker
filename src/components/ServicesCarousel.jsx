@@ -1,4 +1,5 @@
 import React from "react";
+import Text from "./ui/HighText";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import { useState } from "react";
@@ -46,7 +47,9 @@ export default function ServicesSection() {
       <div className="max-w-7xl w-full flex flex-col md:flex-row justify-between items-start gap-8 mb-12">
         <div className="md:w-[1355px] md:h-[190px] grid grid-cols-2 gap-50">
           <div className="md:w-[573px] md:h-[190px]">
-            <p className="text-xs text-purple-500 uppercase mb-2">Serviços</p>
+            <div className="mb-4">
+              <Text text="Serviços" />
+            </div>
             <h2
               className="mb-4 text-4xl md:text-5xl lg:text-6xl"
               style={{
@@ -122,7 +125,7 @@ export default function ServicesSection() {
               </svg>
 
               <div
-                className="absolute text-[13px] text-white bg-purple-700 px-4 py-1 rounded-full z-20"
+                className="absolute text-[13px] text-white bg-purple-700/30 px-4 py-1 rounded-full z-20"
                 style={{
                   top: "calc(690px * 0.02)",
                   left: "calc(1289px * 0.36)",

@@ -1,4 +1,5 @@
 import Button from "./ui/Button";
+import Text from "./ui/HighText";
 
 export default function HomeSection() {
   return (
@@ -9,9 +10,7 @@ export default function HomeSection() {
     >
       <div className="relative z-10 mx-auto flex h-full max-w-7xl items-center justify-between px-6">
         <div className="w-full max-w-md mb-[300px] space-y-4">
-          <span className="text-xs text-pink-500 bg-purple-950 font-semibold px-3 py-1 rounded-full tracking-widest uppercase">
-            wolf Maker
-          </span>
+          <Text text="wolf Maker" />
           <h1 className="text-6xl font-semibold leading-tight">
             O <span className="font-bold">destravar</span>
             <br />

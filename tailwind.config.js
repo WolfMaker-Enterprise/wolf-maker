@@ -1,9 +1,9 @@
 module.exports = {
-  theme: {
-    extend: {
-      fontFamily: {
-        inter: ["Inter", "sans-serif"],
-      },
-    },
-  },
+	theme: {
+		extend: {
+			fontFamily: {
+				inter: ['Inter', 'sans-serif'],
+			},
+		},
+	},
 };

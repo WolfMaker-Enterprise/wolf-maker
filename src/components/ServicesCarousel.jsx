@@ -71,11 +71,8 @@ export default function ServicesSection() {
           <div className="md:w-[520px] md:h-[176px] items-end">
             <hr className="border-t border-purple-700 w-[160px] mb-4" />
             <p
-              className="text-base md:text-lg lg:text-xl"
+              className="text-base manrope md:text-lg lg:text-xl"
               style={{
-                color: "#C5B5C8",
-                fontFamily: "Manrope",
-                fontWeight: 500,
                 lineHeight: "159%",
                 letterSpacing: "-1%",
               }}

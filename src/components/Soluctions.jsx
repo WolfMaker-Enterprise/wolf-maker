@@ -52,29 +52,39 @@ export default function Soluctions() {
             </div>
 
             <div className="space-y-4">
-              {[
-                {
-                  title: "Conheça nossas soluções",
-                  text: "Pretium eget egestas sociis mauris et ultrices ultricies accumsan vitae ac hac et purus nulla ut pellentesque ac nunc in.",
-                },
-                {
-                  title: "Contatos",
-                  text: "Pretium eget egestas sociis mauris et ultrices ultricies accumsan vitae ac hac et purus nulla ut pellentesque ac nunc in.",
-                },
-              ].map((card, i) => (
-                <div
-                  key={i}
-                  className="flex items-start justify-between border-l-[3px] border-purple-500/80 rounded-lg px-6 py-5 bg-black/10 backdrop-blur-md"
-                >
-                  <div>
-                    <h4 className="font-semibold text-lg mb-1">{card.title}</h4>
-                    <p className="text-sm text-gray-300">{card.text}</p>
-                  </div>
-                  <div className="bg-white p-1 rounded-full">
-                    <ArrowUpRight size={20} className="text-pink-500" />
-                  </div>
+              <a
+                href="#services"
+                className="flex items-start justify-between border-l-[3px] border-purple-500/80 rounded-lg px-6 py-5 bg-black/10 backdrop-blur-md"
+              >
+                <div>
+                  <h4 className="font-semibold text-lg mb-1">
+                    Conheça nossas soluções
+                  </h4>
+                  <p className="text-sm text-gray-300">
+                    impulsionamos empresas a crescer mais rápido, atraindo
+                    clientes certos e multiplicando vendas com estratégias
+                    inteligentes que geram resultados reais.
+                  </p>
                 </div>
-              ))}
+                <div className="bg-white p-1 rounded-full">
+                  <ArrowUpRight size={20} className="text-pink-500" />
+                </div>
+              </a>
+              <a
+                href="https://wa.me/554788500777"
+                className="flex items-start justify-between border-l-[3px] border-purple-500/80 rounded-lg px-6 py-5 bg-black/10 backdrop-blur-md"
+              >
+                <div>
+                  <h4 className="font-semibold text-lg mb-1">Fale conosco</h4>
+                  <p className="text-sm text-gray-300">
+                    Entre em contato conosco para saber mais sobre nossos
+                    serviços por whatsapp agora mesmo!
+                  </p>
+                </div>
+                <div className="bg-white p-1 rounded-full">
+                  <ArrowUpRight size={20} className="text-pink-500" />
+                </div>
+              </a>
             </div>
           </div>
         </div>

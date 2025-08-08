@@ -34,10 +34,10 @@ export default function Diferencials() {
         <div className="mb-4">
           <Text text="diferenciais" />
         </div>
-        <h2 className="text-3xl sm:text-4xl font-light">
+        <h2 className="text-[56px] sm:text-[56px] font-light">
           Por que escolher a <span className="font-bold">Wolf Maker</span>
         </h2>
-        <p className="text-sm text-gray-300 max-w-xl mx-auto">
+        <p className="text-[20px] text-gray-300 max-w-2xl mx-auto">
           Trazer resultado para nossos clientes, esse é nosso objetivo
           principal.
         </p>
@@ -54,8 +54,8 @@ export default function Diferencials() {
                 <AiOutlineCheckCircle size={20} className="text-white" />
               </div>
 
-              <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-              <p className="text-sm text-gray-300">{item.description}</p>
+              <h3 className="text-[24px] font-semibold mb-2">{item.title}</h3>
+              <p className="text-[16px] text-gray-300">{item.description}</p>
             </div>
           ))}
         </div>

@@ -53,7 +53,7 @@ export default function TeamSection() {
         <div
           className="flex w-max animate-scroll whitespace-nowrap gap-8"
           style={{
-            animation: "scrollRight 280s linear infinite",
+            animation: "scrollRight 100s linear infinite",
           }}
         >
           {teamMembers.concat(teamMembers).map((member, index) => (

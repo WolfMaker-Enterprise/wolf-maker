@@ -14,13 +14,13 @@ export default function FAQ() {
     {
       title: "Como funciona o processo de gestão de tráfego pago?",
       answer:
-        "O processo de gestão de tráfego pago na Wolf Maker envolve várias etapas. Primeiro, realizamos uma análise detalhada do seu negócio e do seu público-alvo. Em seguida, desenvolvemos uma estratégia personalizada que inclui a criação de anúncios, segmentação de público e definição de orçamentos. Monitoramos continuamente o desempenho das campanhas, otimizando-as para garantir o melhor retorno sobre o investimento.",
+        "Transformamos seu investimento em retorno real, criando campanhas segmentadas para atrair pessoas com alta intenção de compra. Monitoramos e otimizamos cada anúncio para gerar mais vendas e faturamento, usando dados e estratégia para maximizar cada real investido.",
     },
     {
       title:
         "É possível contratar um serviço específico ou é necessário contratar um pacote completo?",
       answer:
-        "Na Wolf Maker, oferecemos flexibilidade na contratação de nossos serviços. Você pode optar por contratar um serviço específico, como gestão de tráfego pago ou desenvolvimento de páginas, ou escolher um pacote completo que inclua várias soluções. Nossa equipe está pronta para entender suas necessidades e oferecer a melhor opção para o seu negócio.",
+        "Você pode contratar apenas o serviço que precisa ou um pacote completo. Nossa estrutura é flexível para atender sua demanda específica e gerar resultados no formato que faz mais sentido para o seu negócio.",
     },
   ];
 
@@ -51,7 +51,6 @@ export default function FAQ() {
           </p>
         </div>
 
-        {/* Lado Direito - Perguntas */}
         <div className="space-y-4">
           {questions.map((q, index) => {
             const isOpen = index === openIndex;

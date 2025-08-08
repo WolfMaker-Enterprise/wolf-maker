@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  @apply m-0 p-0 box-border;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  @apply font-['Inter'];
+  -webkit-font-smoothing: antialiased; /* Suavização para navegadores WebKit */
+  -moz-osx-font-smoothing: grayscale; /* Suavização para macOS */
+  text-rendering: optimizeLegibility; /* Melhorar legibilidade */
+}

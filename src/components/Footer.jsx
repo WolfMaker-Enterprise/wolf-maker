@@ -1,4 +1,4 @@
-import { FacebookLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
+import { InstagramLogo, WhatsappLogo } from "phosphor-react";
 
 export default function Footer() {
   return (
@@ -35,19 +35,13 @@ export default function Footer() {
             href="#"
             className="bg-pink-500 hover:bg-pink-600 p-3 rounded-full"
           >
-            <FacebookLogo weight="fill" size={20} />
-          </a>
-          <a
-            href="#"
-            className="bg-pink-500 hover:bg-pink-600 p-3 rounded-full"
-          >
             <InstagramLogo weight="fill" size={20} />
           </a>
           <a
-            href="#"
+            href="https://wa.me/554788500777"
             className="bg-pink-500 hover:bg-pink-600 p-3 rounded-full"
           >
-            <LinkedinLogo weight="fill" size={20} />
+            <WhatsappLogo weight="fill" size={20} />
           </a>
         </div>
       </div>

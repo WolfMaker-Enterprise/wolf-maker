@@ -43,7 +43,10 @@ export default function ServicesSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   return (
-    <section className="w-full px-4 py-20 bg-[#140517] text-white flex flex-col items-center">
+    <section
+      id="services"
+      className="w-full px-4 py-20 bg-[#140517] text-white flex flex-col items-center"
+    >
       <div className="max-w-7xl w-full flex flex-col md:flex-row justify-between items-start gap-8 mb-12">
         <div className="md:w-[1355px] md:h-[190px] grid grid-cols-2 gap-50">
           <div className="md:w-[573px] md:h-[190px]">
@@ -61,7 +64,7 @@ export default function ServicesSection() {
               }}
             >
               Transforme desafios <br />
-              em <span className="text-purple-500">resultados!</span>
+              em <span>resultados!</span>
             </h2>
           </div>
 

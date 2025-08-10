@@ -22,7 +22,10 @@ export default function Diferencials() {
 	];
 
 	return (
-		<section className="relative bg-[#100511] text-white py-20 px-4 overflow-hidden">
+		<section
+			id="sobre"
+			className="relative bg-[#100511] text-white py-20 px-4 overflow-hidden"
+		>
 			<img
 				src="/images/wolf_maker.png"
 				alt="Wolf Maker Background"
@@ -34,19 +37,19 @@ export default function Diferencials() {
 				<div className="mb-4">
 					<Text text="diferenciais" />
 				</div>
-				<h2 className="text-[56px] sm:text-[56px] font-light">
+				<h2 className="text-[32px] sm:text-[56px] font-light">
 					Por que escolher a <span className="font-bold">Wolf Maker</span>
 				</h2>
-				<p className="text-[20px] text-gray-300 max-w-2xl mx-auto">
+				<p className="text-[16px] sm:text-[20px] text-gray-300 max-w-2xl mx-auto">
 					Trazer resultado para nossos clientes, esse é nosso objetivo
 					principal.
 				</p>
 
-				<div className="mt-10 grid gap-8 md:grid-cols-3">
+				<div className="mt-8 grid gap-6 sm:gap-8 grid-cols-1 md:grid-cols-3">
 					{cards.map((item, index) => (
 						<div
 							key={index}
-							className="relative p-6 text-left bg-black/20 backdrop-blur-md rounded-3xl overflow-hidden group"
+							className="relative p-4 sm:p-6 text-left bg-black/20 backdrop-blur-md rounded-3xl overflow-hidden group"
 						>
 							<span className="absolute left-0 top-0 h-full w-[2px] bg-gradient-to-b from-pink-500 to-purple-600 rounded-full transition-all duration-700 group-hover:h-full" />
 
@@ -54,8 +57,12 @@ export default function Diferencials() {
 								<AiOutlineCheckCircle size={20} className="text-white" />
 							</div>
 
-							<h3 className="text-[24px] font-semibold mb-2">{item.title}</h3>
-							<p className="text-[16px] text-gray-300">{item.description}</p>
+							<h3 className="text-[18px] sm:text-[24px] font-semibold mb-2">
+								{item.title}
+							</h3>
+							<p className="text-[14px] sm:text-[16px] text-gray-300">
+								{item.description}
+							</p>
 						</div>
 					))}
 				</div>

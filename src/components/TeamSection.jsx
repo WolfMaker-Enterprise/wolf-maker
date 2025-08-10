@@ -69,19 +69,6 @@ export default function TeamSection() {
 					))}
 				</div>
 			</div>
-
-			<style>
-				{`
-          @keyframes scrollRight {
-            0% {
-              transform: translateX(0%);
-            }
-            100% {
-              transform: translateX(-50%);
-            }
-          }
-        `}
-			</style>
 		</section>
 	);
 }

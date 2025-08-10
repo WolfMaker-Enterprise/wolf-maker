@@ -7,7 +7,7 @@ export default function Footer() {
 				<div className="flex items-center gap-3">
 					<img src="images/image 3.png" alt="Logo Wolf Maker" />
 				</div>
-				<ul className="flex gap-6 text-sm font-light">
+				<ul className="hidden sm:flex gap-6 text-sm font-light">
 					<li>
 						<a href="#inicio" className="hover:opacity-80">
 							Home

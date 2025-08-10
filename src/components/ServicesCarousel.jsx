@@ -48,13 +48,13 @@ export default function ServicesSection() {
 			className="w-full px-4 py-20 bg-[#140517] text-white flex flex-col items-center"
 		>
 			<div className="max-w-7xl w-full flex flex-col md:flex-row justify-between items-start gap-8 mb-12">
-				<div className="md:w-[1355px] md:h-[190px] grid grid-cols-2 gap-50">
-					<div className="md:w-[573px] md:h-[190px]">
-						<div className="mb-4">
+				<div className="w-full md:w-[1355px] md:h-[190px] grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-12">
+					<div className="w-full md:w-[573px] md:h-[190px] text-center sm:text-left">
+						<div className="mb-2 sm:mb-4">
 							<Text text="Serviços" />
 						</div>
 						<h2
-							className="mb-4 text-4xl md:text-5xl lg:text-6xl"
+							className="mb-2 sm:mb-4 text-2xl sm:text-4xl md:text-5xl lg:text-6xl"
 							style={{
 								color: '#FFF',
 								fontFamily: 'Inter',
@@ -68,10 +68,10 @@ export default function ServicesSection() {
 						</h2>
 					</div>
 
-					<div className="md:w-[520px] md:h-[176px] items-end">
-						<hr className="border-t border-purple-700 w-[160px] mb-4" />
+					<div className="w-full md:w-[520px] md:h-[176px] items-end">
+						<hr className="border-t border-purple-700 w-[80px] sm:w-[160px] mb-2 sm:mb-4 sm:mx-auto" />
 						<p
-							className="text-base manrope md:text-lg lg:text-xl"
+							className="text-sm sm:text-base manrope md:text-lg lg:text-xl px-2 sm:px-0"
 							style={{
 								lineHeight: '159%',
 								letterSpacing: '-1%',

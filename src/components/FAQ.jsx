@@ -27,15 +27,15 @@ export default function FAQ() {
 	const [openIndex, setOpenIndex] = useState(0);
 
 	return (
-		<section className="bg-[#140517] text-white md:h-[618px] py-20 px-6">
-			<div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
-				<div>
+		<section className="bg-[#140517] text-white py-12 px-3 sm:py-20 sm:px-6">
+			<div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12">
+				<div className="text-center md:text-left">
 					<Text text="FAQ" />
-					<h2 className="text-4xl font-bold leading-snug mt-4">
+					<h2 className="text-2xl sm:text-4xl font-bold leading-snug mt-4">
 						Desbloqueie sua empresa <br />
 						para a <span className="text-white font-extrabold">tecnologia</span>
 					</h2>
-					<p className="text-gray-300 text-sm mt-6 leading-relaxed">
+					<p className="text-gray-300 text-xs sm:text-sm mt-4 sm:mt-6 leading-relaxed">
 						Na Wolf Maker, entendemos que ao buscar soluções digitais para seu
 						negócio, é natural ter dúvidas sobre o processo, os serviços e como
 						podemos ajudar você a alcançar seus objetivos. Para tornar sua
@@ -51,13 +51,13 @@ export default function FAQ() {
 					</p>
 				</div>
 
-				<div className="space-y-4">
+				<div className="space-y-3 sm:space-y-4">
 					{questions.map((q, index) => {
 						const isOpen = index === openIndex;
 						return (
 							<div
 								key={index}
-								className={`rounded-xl p-5 transition-all duration-300 ${
+								className={`rounded-xl p-3 sm:p-5 transition-all duration-300 ${
 									isOpen
 										? 'bg-gradient-to-br from-pink-500 to-purple-500 text-white'
 										: 'bg-black/10 text-white border border-white/10'
@@ -65,7 +65,7 @@ export default function FAQ() {
 								onClick={() => setOpenIndex(index)}
 							>
 								<div className="flex justify-between items-start cursor-pointer">
-									<h4 className="font-semibold text-sm md:text-base">
+									<h4 className="font-semibold text-xs sm:text-sm md:text-base">
 										{q.title}
 									</h4>
 									<div className="w-6 h-6 rounded-full bg-white flex items-center justify-center shrink-0 ml-4 mt-1">
@@ -73,7 +73,7 @@ export default function FAQ() {
 									</div>
 								</div>
 								{isOpen && q.answer && (
-									<p className="text-sm mt-3">{q.answer}</p>
+									<p className="text-xs sm:text-sm mt-2 sm:mt-3">{q.answer}</p>
 								)}
 							</div>
 						);

@@ -4,8 +4,11 @@ import { ArrowUpRight } from 'phosphor-react';
 
 export default function Soluctions() {
 	return (
-		<section className="relative bg-[#140517] text-white py-24 px-6 overflow-hidden flex items-center justify-center">
-			<div className="max-w-7xl w-full space-y-16 relative z-10">
+		<section
+			id="solucoes"
+			className="relative bg-[#140517] text-white py-24 px-6 overflow-hidden flex items-center justify-center"
+		>
+			<div className="max-w-7xl w-full relative z-10">
 				<div className="text-center">
 					<div className="mb-4">
 						<Text text="Contatos" />
@@ -15,21 +18,8 @@ export default function Soluctions() {
 					</h2>
 				</div>
 
-				<div className="grid md:grid-cols-2 gap-12 items-center">
+				<div className="grid md:grid-cols-2 sm:gap-12 items-center">
 					<div className="relative flex justify-center items-center">
-						<img
-							src="images/grade.png"
-							alt="Fundo decorativo"
-							className="absolute left-0 top-0 h-full w-full max-w-[700px] object-cover opacity-40 pointer-events-none select-none"
-							style={{
-								maskImage:
-									'linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1) 30%, rgba(0,0,0,1) 70%, rgba(0,0,0,0.1))',
-								WebkitMaskImage:
-									'linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,1) 30%, rgba(0,0,0,1) 70%, rgba(0,0,0,0.1))',
-								filter: 'brightness(1.2) contrast(1.3)',
-								zIndex: 0,
-							}}
-						/>
 						<img
 							src="images/wolf.png"
 							alt="Lobo uivando"

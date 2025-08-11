@@ -32,13 +32,13 @@ export default function Footer() {
 
 				<div className="flex gap-4">
 					<a
-						href="#"
+						href="https://www.instagram.com/wolfmaker_/"
 						className="bg-pink-500 hover:bg-pink-600 p-3 rounded-full"
 					>
 						<InstagramLogo weight="fill" size={20} />
 					</a>
 					<a
-						href="https://wa.me/554788500777"
+						href="https://wa.me/5551993793104"
 						className="bg-pink-500 hover:bg-pink-600 p-3 rounded-full"
 					>
 						<WhatsappLogo weight="fill" size={20} />
